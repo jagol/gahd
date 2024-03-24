@@ -16,4 +16,4 @@ This repository contains the dataset from our NAACL 2024 paper "Improving Advers
 - `model_prediction`: label predicted by the target model, `0` or `1`
 - `annotator_id`: unique identifier of the annotator that created the entry
 - `annotator_labels`: a string containing a forward slash-separated list of all labels by annotators
-- `expert_labels`: `0` or `1` if an expert annotator annotated the entry, otherwise empty^^
+- `expert_labels`: `0` or `1` if an expert annotator annotated the entry, otherwise empty
