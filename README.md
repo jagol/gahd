@@ -17,3 +17,15 @@ This repository contains the dataset from our NAACL 2024 paper "Improving Advers
 - `annotator_id`: unique identifier of the annotator that created the entry
 - `annotator_labels`: a string containing a forward slash-separated list of all labels by annotators
 - `expert_labels`: `0` or `1` if an expert annotator annotated the entry, otherwise empty
+
+When using GAHD, please cite our preprint on Arxiv:
+```
+@misc{goldzycher2024improving,
+      title={Improving Adversarial Data Collection by Supporting Annotators: Lessons from GAHD, a German Hate Speech Dataset}, 
+      author={Janis Goldzycher and Paul Röttger and Gerold Schneider},
+      year={2024},
+      eprint={2403.19559},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
