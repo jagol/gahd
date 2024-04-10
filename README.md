@@ -1,4 +1,4 @@
-This repository contains the dataset from our NAACL 2024 paper "Improving Adversarial Data Collection by Supporting Annotators: Lessons from GAHD, a German Hate Speech Dataset".
+This repository contains the dataset from our NAACL 2024 paper [Improving Adversarial Data Collection by Supporting Annotators: Lessons from GAHD, a German Hate Speech Dataset](https://arxiv.org/abs/2403.19559).
 
 `gahd.csv` contains the following columns:
 - `gahd_id`: unique identifier of the entry
@@ -17,6 +17,8 @@ This repository contains the dataset from our NAACL 2024 paper "Improving Advers
 - `annotator_id`: unique identifier of the annotator that created the entry
 - `annotator_labels`: a string containing a forward slash-separated list of all labels by annotators
 - `expert_labels`: `0` or `1` if an expert annotator annotated the entry, otherwise empty
+
+The dataset is also available on [Huggingface](https://huggingface.co/datasets/jagoldz/gahd).
 
 When using GAHD, please cite our preprint on Arxiv:
 ```
