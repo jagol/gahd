@@ -20,14 +20,24 @@ This repository contains the dataset from our NAACL 2024 paper [Improving Advers
 
 The dataset is also available on [Huggingface](https://huggingface.co/datasets/jagoldz/gahd).
 
-When using GAHD, please cite our preprint on Arxiv:
+When using GAHD, please cite our paper:
 ```
-@misc{goldzycher2024improving,
-      title={Improving Adversarial Data Collection by Supporting Annotators: Lessons from GAHD, a German Hate Speech Dataset}, 
-      author={Janis Goldzycher and Paul Röttger and Gerold Schneider},
-      year={2024},
-      eprint={2403.19559},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{goldzycher-etal-2024-improving,
+    title = "Improving Adversarial Data Collection by Supporting Annotators: Lessons from {GAHD}, a {G}erman Hate Speech Dataset",
+    author = {Goldzycher, Janis  and
+      R{\"o}ttger, Paul  and
+      Schneider, Gerold},
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.248",
+    doi = "10.18653/v1/2024.naacl-long.248",
+    pages = "4405--4424",
+    abstract = "Hate speech detection models are only as good as the data they are trained on. Datasets sourced from social media suffer from systematic gaps and biases, leading to unreliable models with simplistic decision boundaries. Adversarial datasets, collected by exploiting model weaknesses, promise to fix this problem. However, adversarial data collection can be slow and costly, and individual annotators have limited creativity. In this paper, we introduce GAHD, a new German Adversarial Hate speech Dataset comprising ca. 11k examples. During data collection, we explore new strategies for supporting annotators, to create more diverse adversarial examples more efficiently and provide a manual analysis of annotator disagreements for each strategy. Our experiments show that the resulting dataset is challenging even for state-of-the-art hate speech detection models, and that training on GAHD clearly improves model robustness. Further, we find that mixing multiple support strategies is most advantageous. We make GAHD publicly available at https://github.com/jagol/gahd.",
 }
 ```
